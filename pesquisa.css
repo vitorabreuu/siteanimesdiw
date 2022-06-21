@@ -1,0 +1,59 @@
+.kemicofa-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: stretch;
+}
+
+.kemicofa-row > * {
+    flex-basis: 20rem;
+    flex-shrink: 0;
+}
+
+.kemicofa-row .card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.kemicofa-row .card > .card-content {
+    flex-grow: 1;
+}
+
+.kemicofa-row .card > .card-image {
+    flex-basis: 25rem;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+.nav-wrapper{
+    background-color: #110f14;
+}
+
+html{
+    background-color: #212529;
+}
+button{
+    background-color: transparent;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 2350px;
+}
+
+img.navbar-brand {
+    width: 150px;
+    height: 120px;
+    margin-right: 25px;
+    
+}
+

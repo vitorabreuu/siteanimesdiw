@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS 5.1.3 - 04/2022 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Fontawesome 6.1.1 - 04/2022 -->
+
+    <!-- Fonte do texto -->
+
+    <title>AniMovies - Portal de filmes</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Barra de navegação superior -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid" style="background-color: #110f14;">
+                <img class="navbar-brand" src="logo.png" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <!-- href temporario -->
+                            <a class="nav-link active" aria-current="page" href="#filmesem">Filme da semana</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- href temporario -->
+                            <a class="nav-link" href="#destaques">Filmes em destaque</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- href temporario -->
+                            <a class="nav-link" href="#avaliacoes">Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- href temporario -->
+                            <a class="nav-link" href="#trailers">Trailers & Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- href temporario -->
+                            <a class="nav-link" href="#novidades">Novidades</a>
+                        </li>
+                        <li>
+                        <a class="navlink" href="pesquisa.html"> Catálogo e Pesquisa por animes
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Bloco de Lançamento -->
+        <div class="container main">
+            <h2 class="filmesem" id="filmesem">Filme da semana</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <!-- 1 Filme -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row" style="margin-bottom: 35px;">
+                                <div class="col-xs-12 col-12 col-md-6" style="min-height: 350px;">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nfK6UgLra7g"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-xs-12 col-12 col-md-6">
+                                    <p1 height="100% ">
+                                        
+                                    </p1>
+                                    <p>Uma estudante com problemas de audição sofre com o bullying dos colegas e decide mudar de escola. 
+                                        Anos mais tarde, um antigo valentão tenta fazer as pazes com a garota surda que ele atormentava na escola. 
+                                        Ele acha que não merece o perdão, mas vai tentar fazer o que é certo.
+                                    </p>
+                                    <div class="row ">
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Diretora: Naoko Yamada
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Roteiro: Reiko Yoshida
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Elenco: Saori Hayami, Miyu Irino, Aoi Yūki.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        Estreia: 2016
+                                    </div>
+
+                                    <div class="col-12">
+                                        Avaliação: ★★★★★
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Bloco de Destaque -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="destaques" id="destaques">Filmes em destaque</h2>
+                </div>
+                <div class="col-6">
+                    <div class="dropdown" style="text-align: right;">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categoria: TODOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Romance</a></li>
+                            <li><a class="dropdown-item" href="#">Drama</a></li>
+                            <li><a class="dropdown-item" href="#">Comédia</a></li>
+                            <li><a class="dropdown-item" href="#">Ação</a></li>
+                            <li><a class="dropdown-item" href="#">Shonen</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="YourName.jpeg" class="card-img-top" alt="filme1">
+                        <div class="card-body">
+                            <p class="card-text"><b><a target="_blank" href="https://myanimelist.net/anime/32281/Kimi_no_Na_wa"> Your Name</a></b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="WordsBubble.png" class="card-img-top" alt="filme1">
+                        <div class="card-body">
+                            <p class="card-text"><b><a target="_blank" href="https://myanimelist.net/anime/39175/Cider_no_You_ni_Kotoba_ga_Wakiagaru"> Palavras que Borbulham como Refrigerante</a></b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="OlhosdeGato.jpeg" class="card-img-top" alt="filme1">
+                        <div class="card-body">
+                            <p class="card-text"><b><a target="_blank" href="https://myanimelist.net/anime/41168/Nakitai_Watashi_wa_Neko_wo_Kaburu">Olhos de Gato</a></b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="Tempocomvc.png" class="card-img-top" alt="filme1">
+                        <div class="card-body">
+                            <p class="card-text"><b> <a target="_blank" href="https://myanimelist.net/anime/38826/Tenki_no_Ko"> O tempo com você</a></b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Bloco de Avaliações -->
+        <div class="container">
+            <h2 class="avaliacoes" id="avaliacoes">Últimas avaliações</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="icon1.jpeg" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Raphael Veiga - Your Name</h6>
+                                <p><b>Avaliação:</b> Um dos melhores filmes de anime que já assisti!!! A forma gentil e suave que é representada o romance entre
+                                    os personagens, como você se confunde no início, junto com o casal e tudo mais é perfeita. a trilha sonora é impecável e o
+                                    final arrebatador. Eu super indico o filme, principalmente porque se tornou um marco na minha vida. Meus sinceros parabéns a Makuto Shinkai.</p>
+                                <p>★★★★★ - 04/03/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="icon2.jpeg" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Guilherme Arana - O tempo com você</h6>
+                                <p><b>Avaliação:</b> Filme maravilhoso! A história é muito boa, nos faz refletir de que como o tempo, o clima, pode influenciar nas nossas vidas, nos nossos sentimentos, 
+                                    o céu azul muda a nossa perspectiva, deixa a gente alegre, pra cima. Há também muita fantasia e mitologia e um romance no meio da trama que faz a gente ter empatia pelo casal. 
+                                    Os personagens são incríveis, cada um te conquista de uma forma. A trilha sonora é magnífica, mais uma vez, a banda Radwimps, que trabalhou na trilha de Your Name, faz mais uma vez um belo trabalho neste filme, com 
+                                    músicas muito sentimentais e de se ouvir em um loop infinito. E a animação também é uns dos pontos mais fortes, você verá Tóquio com outros olhos, o sol, o céu azul, a chuva, a paisagem, ficam muito belos nessa animação. </p>
+                                <p>★★★★★ - 15/03/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="icon3.png" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Givanildo Vieira - Olhos de gato</h6>
+                                <p><b>Avaliação:</b> Um filme incrível, ainda mais pela protagonista. Eu diria que a historia é tão boa como a de outros filmes, por exemplo, 
+                                    a voz do silencio e your name. Ao mesmo tempo que você ri em algumas cenas, você chora em outras. O romance dos personagens tem algumas 
+                                    "reviravoltas", e não diria que é um filme muito clichê, como outros. Não me arrependo nem um pouco de ter assistido, recomendo.
+                                    </p>
+                                <p>★★★★★ - 12/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+        <!-- Bloco de Trailers & Futuros lançamentos -->
+        <div class="container">
+            <h2 class="trai" id="trailers">Trailers & Futuros lançamentos</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/j90f2NyTPho"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xjjFCxurylA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/In4qtVVMHnA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p><b>Filme:</b> Jujutsu Kaisen 0<br>
+                        <b>Diretor:</b> Sunghoo Park<br>
+                        <b>Adaptação da obra de:</b> Gege Akutami <br>
+                        <b>Estreia:</b> 28 de abril de 2022
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p><b>Filme:</b> Sword Art Online: Progressive - Ária de Uma Noite Sem Estrelas<br>
+                        <b>Diretor:</b> Ayako Kōno<br>
+                        <b>Adaptação da obra de:</b> Reki Kawahara <br>
+                        <b>Estreia:</b> 10 de março de 2022
+                    </p>
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p><b>Filme:</b> Suzume no Tojimari<br>
+                        <b>Diretor:</b> Makoto Shinkai<br>
+                        <b>Adaptação da obra de:</b> Makoto Shinkai <br>
+                        <b>Estreia:</b> 11 de novembro de 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+            <div class="row">
+
+            </div>
+        </div>
+
+        <!-- Bloco de trailers & lançamentos -->
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h2 class="novidades" id="novidades">Novidades</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-11 col-md-4">
+                                <img height="100%" width="100%" src="jujutsu.jpeg" alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>Jujutsu Kaisen 0 está próximo!!!
+                                </h5>
+                                <p>Após de ser adiado mais de duas vezes, agora é OFICIAL Jujutsu Kaisen 0 chega com tudo nos cinemas no dia 28 de abril!!!
+                                    Filme está sendo dirigido por Sunghoo Park, mais conhecido por dirigir a série de anime de Jujutsu Kaisen no passado e The God of High School.
+                                    O filme se encontra nas versões dubladas e legendadas, sendo ambas lançadas dia 28.
+                                    
+                                    
+                                    <p>
+                                    Sinopse: O jovem Yuta Okkotsu ganha o controle de um espírito extremamente poderoso, então um grupo de feiticeiros o matriculam na 
+                                    Tokyo Prefectural Jujutsu High School, para ajudá-lo a controlar esse poder e também para ficar de olho nele.</p>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 10px;">
+                        <div class="row">
+                            <div class="ol-xs-12 col-11 col-md-4">
+                                <img height="100%" width="100%" src="suzume.png" alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>Suzume no Tomari ganha seu primeiro trailer.
+                                </h5>
+                                <p>Suzume no Tojimari, novo filme de Makoto Shinkai, diretor de Your Name e O tempo com você, será lançado no dia 11 de novembro no Japão.
+                                O longa recebeu o primeiro teaser no último domingo (10/04/2022) mostrando alguns trechos emocionantes, belos cenários e foco na trilha sonora, assim como os projetos anteriores do cineasta.
+                                </p>
+                                <p>O filme mostra a jornada de Suzume, de 17 anos, começa em uma pacata cidade em Kyushu quando ela encontra um jovem que lhe diz: “Estou procurando uma porta”. O que Suzume encontra é uma 
+                                    única porta desgastada em pé no meio de ruínas, como se estivesse protegida de qualquer catástrofe. Aparentemente hipnotizada por seu poder, Suzume alcança a maçaneta… As portas 
+                                    começam a se abrir uma após a outra em todo o Japão, desencadeando destruição sobre qualquer um que esteja por perto. Suzume deve fechar esses portais para evitar mais desastres.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 10px; margin-bottom: 15px;">
+                        <div class="row">
+                            <div class="ol-xs-12 col-11 col-md-4">
+                                <img height="100%" width="100%" src="DemonSlayer.png" alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>3ª temporada de Demon Slayer confirmada e já tem trailer!
+                                </h5>
+                                <p>O Ufotable divulgou agora há pouco (16 de abr de 2022) nas redes sociais o <a href="https://www.youtube.com/watch?v=cC2J_d3xz5c"> trailer</a> oficial da 3ª temporada de Demon Slayer. 
+                                    Ainda não há data de lançamento.
+                                    Os novos episódios vão servir como adaptação do arco Vila dos Ferreiros. Neste arco, Tanjiro viaja para a Vila dos Espadachim 
+                                    para substituir sua espada porque Hotaru Haganezuka está cansado de consertá-la.
+                                    Ao chegar, ele é levado diretamente para Tecchin Tecchikawahara, chefe da aldeia, que revela a Tanjiro que Hotaru desapareceu há pouco tempo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bloco de Sobre -->
+                <div class="col-4">
+                <p>
+                    <h1>Sobre</h1>
+                    <h2>Projeto de um portal de filmes relacionado a matéria de Desenvolvimento de Interfaces Web, do curso de Sistemas de informação da PUC Minas pelo professor Rommel Carneiro.</h2>
+                </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="text-center p-3" style="background-color: #110f14;">
+            <p class="footertext">© 2022 Copyright: Desenvolvimento de Interfaces Web -
+                <b>ICEI PUC MINAS</b>
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>        
+
+</body>
+</html>
